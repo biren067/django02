@@ -1,6 +1,6 @@
 {
     "builds":[{
-        "src":"onedjango01/wsgi.py",
+        "src":"onedjango02two/wsgi.py",
         "use":"@vercel/python",
         "config":{
             "maxLambdaSize":"15mb",
@@ -9,6 +9,6 @@
     }],
     "routes":[{
         "src":"/(.*)",
-        "dest":"onedjango01/wsgi.py"
+        "dest":"onedjango02two/wsgi.py"
     }]
 }
